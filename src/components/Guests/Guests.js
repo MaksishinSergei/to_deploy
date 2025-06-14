@@ -50,7 +50,7 @@ export default function Guests() {
               <p className="date__month">августа</p>
               <p className="date__year">2025</p>
             </div>
-            <p className="guests__date-time">00:00</p>
+            <p className="guests__date-time">15:30</p>
           </div>
         </div>
       </div>

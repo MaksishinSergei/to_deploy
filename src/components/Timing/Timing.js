@@ -30,7 +30,7 @@ export default function Timing() {
         >
           <h2 className="title timing__title">Программа дня</h2>
           <ul className="timing__list">
-            <li className="timing__list-item item-1">Событие</li>
+            <li className="timing__list-item item-1">Сбор гостей</li>
             <li className="timing__list-item wheat-1 wheat-item">
               <img
                 src="./image/wheat_timing.png"
@@ -38,7 +38,7 @@ export default function Timing() {
                 className="timing__list-image"
               />
             </li>
-            <li className="timing__list-item item-2">Событие</li>
+            <li className="timing__list-item item-2">Фотосет</li>
             <li className="timing__list-item wheat-2 wheat-item">
               <img
                 src="./image/wheat_timing.png"
@@ -46,7 +46,7 @@ export default function Timing() {
                 className="timing__list-image mirror"
               />
             </li>
-            <li className="timing__list-item item-3">Событие</li>
+            <li className="timing__list-item item-3">Банкет</li>
             <li className="timing__list-item wheat-3 wheat-item">
               <img
                 src="./image/wheat_timing.png"
@@ -54,7 +54,7 @@ export default function Timing() {
                 className="timing__list-image"
               />
             </li>
-            <li className="timing__list-item item-4">Событие</li>
+            <li className="timing__list-item item-4">Заключение</li>
           </ul>
         </div>
       </div>

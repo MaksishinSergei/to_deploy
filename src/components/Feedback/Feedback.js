@@ -42,8 +42,6 @@ export default function Feedback() {
         text: isTextContent,
         agreement: `Я, ${isNameContent}, даю свое согласие на обработку персональных данных `,
       };
-      console.log("Форма валидна, отправляем данные:", formData);
-
       handleSubmit({ preventDefault: () => {} }, formData);
       setForm(formData);
     } else {
@@ -114,7 +112,7 @@ export default function Feedback() {
           <div className="form__wrapper">
             <p className="text form__subtitle">
               Мы будем очень признательны, если вы сообщите нам о вашем решении
-              до 00 июля 2025 года
+              до 02 июля 2025 года
             </p>
             <div
               className={`form__fio-wrapper ${
