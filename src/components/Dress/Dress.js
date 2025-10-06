@@ -17,7 +17,6 @@ export default function Dress() {
 
     const element = myElementRef.current;
     if (element) {
-      // Ждём загрузки всех изображений
       Promise.all(
         Array.from(element.querySelectorAll("img")).map(
           (img) =>
@@ -152,3 +151,4 @@ export default function Dress() {
     </section>
   );
 }
+
